@@ -16,7 +16,7 @@ except ValueError:
 arquivos = os.listdir(PASTA_ENTRADA)
 
 if not arquivos:
-    print("⚠️ Coloque imagens na pasta 'imagens'")
+    print("Coloque imagens na pasta 'imagens'")
     exit()
 
 for arquivo in arquivos:
